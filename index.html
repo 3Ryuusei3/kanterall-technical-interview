@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Madison Curling Club</title>
+		<link rel="stylesheet" href="./styles/reset.css" />
+		<link rel="stylesheet" href="./styles/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="./styles/animate.css" />
+	</head>
+	<body>
+		<header>
+			<nav class="wrapper header__wrapper">
+				<div class="header__image">
+					<h2>Madison Curling Club</h2>
+				</div>
+				<div class="header__hamb" id="menuButton">
+					<div class="header__hamb--bar"></div>
+					<div class="header__hamb--bar"></div>
+					<div class="header__hamb--bar"></div>
+				</div>
+				<ul class="header__menu">
+					<li class="header__menu--item">
+						<a href="#" class="header__menu--link">Register</a>
+					</li>
+					<li class="header__menu--item">
+						<a href="#" class="header__menu--link">About Us</a>
+						<ul class="header__submenu">
+							<li><a href="#">History</a></li>
+							<li>
+								<a href="#">Values</a>
+								<ul class="header__submenu2">
+									<li><a href="#">Our team</a></li>
+									<li><a href="#">Method</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</li>
+					<li class="header__menu--item">
+						<a href="#" class="header__menu--link">Gallery</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main class="hero">
+			<div class="wrapper hero__wrapper">
+				<div class="hero__content wow fadeInLeftSmall">
+					<img src="./src/logo3.svg" alt="" class="wow fadeInLeftSmall" />
+					<h1 class="title">Learn Curling this winter</h1>
+					<a href="#" class="btn">Register now</a>
+				</div>
+			</div>
+		</main>
+		<section class="services">
+			<div class="wrapper services__wrapper">
+				<div class="services__heading wow fadeInRightSmall">
+					<h1 class="title title-cnt">Classes and leagues forming now</h1>
+					<p>
+						You've come to the right place! We Have a fantaste teaching program for new curlers here at the Madison Curling Club, inclusing certified instructors who have won national awards from the
+						Unted States curling Association. we take on many new members every year who have never curled before, and we help them to find their niche in this unique and enjoyable sport. Whether
+						you're here to have fun and relax or to fund a competitive outlet, we've got you covered.
+					</p>
+				</div>
+				<div class="services__list wow fadeInRightSmall">
+					<div class="services__card">
+						<img src="./src/icon-team.svg" alt="team icon" />
+						<h3>Open House</h3>
+						<p>
+							You're invited! Join us before the new curling season begins for one of our Instructional curing events. We'llintroduce you the sport and include time for you to get on the ice and try
+							it yourself!
+						</p>
+					</div>
+					<div class="services__card">
+						<img src="./src/icon-curling.svg" alt="curling icon" />
+						<h3>Learn to Curl</h3>
+						<p>
+							Curling lessons provide a great taster to me sport with an introduction to the hacics and information on how the game is played. Many sessions are free and last aprooximately one hour.
+						</p>
+					</div>
+					<div class="services__card">
+						<img src="./src/icon-podium.svg" alt="podium icon" />
+						<h3>Leagues</h3>
+						<p>Participating in an actual game is only part of the fun at the Madison Curling Club. The camaraderie and social aspects or the game area almost as important as the curling itself.</p>
+					</div>
+					<div class="services__card">
+						<img src="./src/icon-trophy.svg" alt="trophy icon" />
+						<h3>Bonspiels</h3>
+						<p>Whether it is bonspieling at other clubs or socializing after a game at our club, you meet life-long friends in a curling club.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="highlight extra-pad">
+			<div class="wrapper highlight__wrapper">
+				<div class="wow fadeInLeft">
+					<h1 class="title">Madison Curling Club</h1>
+					<p>
+						Our multipurpose, six sheet facility was constructed at William McFarland Park in McFarland, WI. The club's relationship with the Village of McFarland has been a positive experience.
+						Together the Madison Curling Club and the Village of McFarland will make it possible for generations to enjoy the game and foster the spirit of the "grand old game" of curling.
+					</p>
+					<br />
+					<p>
+						As we mark our 12th anniversary in our current facility, it is hoped that new club members will gain an appreciation for the vision and financial support of the past members. In turn their
+						support of the Madison Curling Club will enable others to enjoy the experience of curling into the next millennium.
+					</p>
+				</div>
+				<div class="hightlight__circle wow rotate-left" data-wow-duration="3s">
+					<div class="highlight__circle--top"></div>
+					<div class="highlight__circle--bottom"></div>
+				</div>
+			</div>
+		</section>
+		<section class="gallery">
+			<div class="wrapper gallery__wrapper wow fadeInRightSmall">
+				<h1 class="title title-cnt">Fun at the Club!</h1>
+				<div class="gallery__container">
+					<img src="./src/gallery1.jpg" alt="Young people playing curling" />
+					<img src="./src/gallery2.jpg" alt="Young people playing curling" />
+					<img src="./src/gallery3.jpg" alt="Young people playing curling" />
+					<img src="./src/gallery4.jpg" alt="Young people playing curling" />
+					<img src="./src/gallery5.jpg" alt="Young people playing curling" />
+					<img src="./src/gallery6.jpg" alt="Young people playing curling" />
+					<button id="prevButton" class="gallery__button">&#9664;</button>
+					<button id="nextButton" class="gallery__button">&#9654;</button>
+				</div>
+			</div>
+			<div class="visualizer__fullscreen">
+				<a id="downloadButton" class="gallery__button" title="Download" download><span>&#8615;</span></a>
+				<button id="closeButton" class="gallery__button" title="Close">&times;</button>
+				<div class="visualizer__fullscreen--box">
+					<img id="fullscreenImage" src="" alt="Fullscreen Image" />
+					<button id="prevButtonVisualizer" class="visualizer__button">&#9664;</button>
+					<button id="nextButtonVisualizer" class="visualizer__button">&#9654;</button>
+				</div>
+			</div>
+		</section>
+		<section class="cta">
+			<div class="cta__wrapper wrapper">
+				<h1>Are You Ready to try the Madison Curling Club?</h1>
+				<a href="#" class="btn">Register now</a>
+			</div>
+			<img src="./src/logo.svg" alt="Curling logo" />
+			<br />
+		</section>
+		<footer>
+			<div class="wrapper footer__wrapper">
+				<div class="footer__brand">
+					<div>F</div>
+					<div>T</div>
+					<div>I</div>
+				</div>
+				<p>Copyright <span id="currentYear"></span> - <a href="https://es.linkedin.com/in/manuel-atance">Manuel Atance</a></p>
+			</div>
+		</footer>
+	</body>
+	<script src="./js/script.js"></script>
+
+	<script src="./js/wow.min.js"></script>
+	<script>
+		new WOW().init()
+	</script>
+</html>
